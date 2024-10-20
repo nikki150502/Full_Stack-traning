@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+            /* background: linear-gradient(rgb(224, 224, 178),rgb(155, 155, 214)); */
+        }
+        table,tr,th,td{
+           
+           border-collapse: collapse;
+        }
+        table{
+            width:100%;
+            
+        }
+        th ,td{
+            padding: 15px 15px;
+        }
+        th{
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            font-weight: 100;
+        }
+        th sub{
+            font-size: 10px;
+            font-weight: 10px;
+        }
+        td{
+            text-align: center;
+        }
+        tr:nth-child(even)
+        {
+            background-color: rgb(178, 175, 175);
+        }
+        .box1{
+            margin-bottom: 100px;
+            width:100%;
+            height: 30px;
+            background-color: antiquewhite;
+        }
+            .box2{
+                margin-top: 50px;
+                width:100%;
+             height: 30px;
+             background-color: rgb(190, 228, 247);
+             border:2px solid rgb(166, 166, 202);
+             /* outline overlap margin */
+             /* outline-width: 5px;
+             outline-color: rgb(20, 18, 18);
+             outline-style: double; */
+             outline: 3px solid rgb(229, 123, 123);
+             outline-offset: 2px;
+            }
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name <sub>(Desc)</sub></th>
+            <th>WINS</th>
+            <th>DRAWS</th>
+            <th>LOSSES</th>
+            <th>TOTAL</th>
+        </tr>
+        <tr>
+            <td>Dick</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Harry</td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+        
+        
+
+    </table>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>

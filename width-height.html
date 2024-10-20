@@ -7,7 +7,14 @@
     <style>
         h1{
             background-color: antiquewhite;
+            /* user-select: none; */
         }
+        h1::selection {
+  color: red;
+  background: yellow;
+}
+ 
+
         p{
             background-color: rgb(156, 192, 192);
             width: 300px;
@@ -32,16 +39,21 @@
              
             height: 300px;
         }
+        h2{
+            color: green ;
+            
+        }
     </style>
 </head>
 <body>
-    <h1>hello guys🧑‍⚕️..</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis asperiores maxime adipisci accusamus qui consequuntur necessitatibus dolores, placeat repudiandae dolorem. Laboriosam, doloribus vero molestiae id doloremque beatae exercitationem. Sed, nesciunt!</p>
+    <h1>hello guys 🧑‍⚕️..</h1>
+    <p contenteditable="true">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis asperiores maxime adipisci accusamus qui consequuntur necessitatibus dolores, placeat repudiandae dolorem. Laboriosam, doloribus vero molestiae id doloremque beatae exercitationem. Sed, nesciunt!</p>
      <div class="box"> </div>
      <!-- for min otr max height -->
       <div class="box1">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, illo?
       </div>
       <div class="box2">Lorem ipsum dolor sit amet.</div>
+      <h2>Lowest price in the year</h2>
 </body>
 </html>

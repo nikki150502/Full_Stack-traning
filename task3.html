@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>form</title>
+    <style>
+    
+    
+
+        .container {
+      text-align: center;
+      border-radius: 4px;
+      background-color:#fff;
+      padding: 40px;
+     margin:  40px auto;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px; 
+    }
+
+    .container h1 {
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+      font-size: 40px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .container h2 {
+      font-size: 18px;
+      margin-bottom: 30px;
+      font-weight: normal;
+      color: #555;
+    }
+
+    .container input {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+
+    .container button {
+      width: 200px;
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .container button:hover {
+      background-color: #175f14;
+    }
+
+    .container .links {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .container .links p{
+       
+      color: #888;
+       font-size: 13px;
+
+     }
+    .container .links a {
+       
+      color: #000;
+      font-size: 13px;
+    }
+    .container .links a:hover{
+       
+       color: rgb(246, 72, 87);
+     }
+
+    .container .terms {
+      margin: 40px;
+      font-size: 12px;
+      color: #888;
+    }
+
+    .container .terms a {
+      color: #888;
+      
+    }
+    .container .terms a:hover {
+       
+      color: rgb(246, 72, 87);
+    }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>flodesk</h1>
+        <h5>Welcome back!</h5>
+        <form action="#">
+           <input type="email" placeholder="Enter your email" required>
+           <br>
+           <input type="password" placeholder="Enter your password" required>
+           <br>
+           <button type="submit">Log in to Flodesk</button>
+            
+        </form>
+
+        <div class="links">
+            <p>Not a member? <a href="#">Sign up</a></p>
+            <p><a href="#">Forgot your password?</a></p>
+            
+          </div>
+          <div class="terms">
+            <p>By continuing, you agree to Flodesk's <a href="#">terms</a></p>
+            <p> and acknowledge you've read our <a href="#">privacy policy</a>.</p>
+          </div>
+    </div>
+</body>
+</html>
